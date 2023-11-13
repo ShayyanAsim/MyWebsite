@@ -1,8 +1,20 @@
 import React from 'react'
+import Header from './Parts/header/Header'
+import Nav from './Parts/nav/Nav'
+import About from './Parts/about/About'
+
+
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    <Header/>
+    <Nav/>
+    <About/>
+   
+    </>
+
   )
 }
 
