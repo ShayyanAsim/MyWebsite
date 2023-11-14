@@ -1,0 +1,39 @@
+.about__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+
+
+}
+
+
+.aboutme{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    display: grid;
+    place-items: center;
+
+}
+
+.imageofme{
+    width: 25rem;
+    border: 5rem;
+    overflow: hidden;
+}
+
+.mystorybox{
+    color: var(--Frequent-C);
+
+}
+
+
+#IMGG{
+
+    position: absolute;
+    bottom: -730px;
+}
+
+
+
+

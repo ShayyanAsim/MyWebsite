@@ -86,7 +86,9 @@ header{
 
 }
 
-
+#change{
+    color: var(--Frequent-C);
+}
 
 @media screen and (max-width:600px){
     header{
