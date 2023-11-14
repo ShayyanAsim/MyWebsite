@@ -21,25 +21,60 @@
   
 
 
-.experience__container > div{
+/*.experience__container > div{
     background: #8751A9;
     padding: 2.4rem 2.5rem;
     border-radius: 4rem;
     border: 1px solid transparent;
 
 
-}
+}*/
 
 
-.experience__container > :hover{
+/*.experience__container > :hover{
 
 
     background: transparent;
-    border-color: var( --Frequent-C);
+    border-color: var( --Frequent-V);
     cursor: default;
     transition: all 2000ms ease;
 
+}*/
+
+
+
+
+
+.experience__container > div {
+  background: #8751A9;
+  padding: 2.4rem 2.5rem;
+  border-radius: 4rem;
+  border: 1px solid transparent;
+  opacity: 0; /* Start with opacity 0 for the fade-in effect */
+  animation: fadeIn 1.5s forwards; /* Animation name, duration, and fill-mode */
+
 }
+
+@keyframes fadeIn {
+  to {
+    opacity: 5; /* End with opacity 1 for the fade-in effect */
+  }
+}
+
+.experience__container > :hover {
+  background: transparent;
+  border-color: var(--Frequent-V);
+  cursor: default;
+  transition: all 2000ms ease;
+}
+
+
+
+
+
+
+
+
 
 
 .BOXCONTENT{
@@ -54,3 +89,23 @@
     gap: 1rem;
 
 }
+
+
+
+@media screen and (max-width:600px){
+  
+.experience__container > div {
+  background: #8751A9;
+  padding: 1.5rem 1rem;
+  border-radius: 3rem;
+  border: 1px solid transparent;
+  opacity: 0; /* Start with opacity 0 for the fade-in effect */
+  animation: fadeIn 1.5s forwards; /* Animation name, duration, and fill-mode */
+
+
+
+}
+
+}
+
+

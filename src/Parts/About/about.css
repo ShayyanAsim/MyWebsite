@@ -20,8 +20,18 @@
     width: 25rem;
     border: 5rem;
     overflow: hidden;
+    animation: rotate 15s linear infinite; /*new*/
 }
 
+ /*new*/
+@keyframes rotate {
+    from {
+      transform: rotate(0deg); 
+    }
+    to {
+      transform: rotate(17deg); 
+    }
+  }
 
 
 
@@ -30,6 +40,20 @@
     position: absolute;
     bottom: -730px;
 }
+
+@media screen and (max-width:600px){
+    .about__container{
+        display: grid;
+        grid-template-columns: 35% 70%;
+        gap: 15%;
+    
+    
+    }
+
+}
+
+
+
 
 
 
