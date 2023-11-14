@@ -1,0 +1,56 @@
+.experience__container {
+    display: flex;
+    justify-content: center;
+    /* Remove grid-template-columns and gap properties */
+  }
+  
+  
+  
+  .BOXCONTENT {
+    display: flex;
+    flex-wrap: wrap; /* Allows the content to wrap to the next line if it overflows */
+    gap: 1rem; /* Adjust the gap as needed */
+  }
+  
+  .BOXDETAILS {
+    /* Add any styling you want for the BOXDETAILS items */
+    flex: 1 1 calc(33.33% - 1rem); /* Adjust the width of each box based on your desired layout */
+    /* The above line sets each box to take up one-third of the available width, with a 1rem gap */
+  }
+  
+  
+
+
+.experience__container > div{
+    background: #8751A9;
+    padding: 2.4rem 2.5rem;
+    border-radius: 4rem;
+    border: 1px solid transparent;
+
+
+}
+
+
+.experience__container > :hover{
+
+
+    background: transparent;
+    border-color: var( --Frequent-C);
+    cursor: default;
+    transition: all 2000ms ease;
+
+}
+
+
+.BOXCONTENT{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 9rem;
+}
+
+.BOXDETAILS{
+    display: flex;
+    gap: 1rem;
+
+}
