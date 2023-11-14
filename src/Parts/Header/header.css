@@ -6,6 +6,7 @@ header{
 
 
 .header__container{
+    word-spacing: 1px;
     align-items: center;
     text-align: center;
     height: 100%;
