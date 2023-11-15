@@ -28,7 +28,7 @@ const Contact = () => {
             <MdEmail className='icon'/>
             <h4>Email</h4>
             <h5>shayyanasim65@gmail.com</h5>
-            <a href='mailto:shayyanasim65@gmail.com' target='_blank'className='CHANGE'>  Send an Email</a>
+            <a href='mailto:shayyanasim65@gmail.com' target='_blank'className='CHANGE'> Click Here To Send an Email</a>
 
           </article>
 
@@ -75,6 +75,7 @@ const Contact = () => {
         </form>
 
       </div>
+      <h2 id='last'>@ShayyanAsim2023</h2>
     </section>
   )
 }

@@ -30,7 +30,7 @@
 
 .contactMethod:hover{
 
-    background: transparent;
+    background: #dda0dd;
     border-color: var(--Background-V);
 
 
@@ -101,11 +101,15 @@ input,textarea{
     justify-content: center;
 }
 
-#contact{
-    height: 180vh;
-}
 
 
 .CHANGE{
     color:   var(--Backgorund-C);
 }
+
+
+#last{
+    margin-top: 30vh;
+    border: 2px sold var(--Background-V);
+}
+

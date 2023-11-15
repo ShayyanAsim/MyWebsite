@@ -5,7 +5,7 @@ const footer = () => {
   return (
     <footer>
 
-        <h2 id='beautify' >@ShayyanAsim2023</h2>
+        <h2 id='beautify' ></h2>
 
     </footer>
   )

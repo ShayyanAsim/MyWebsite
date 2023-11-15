@@ -62,7 +62,7 @@
 }
 
 .experience__container > :hover {
-  background: transparent;
+  background: #dda0dd;
   border-color: var(--Frequent-V);
   cursor: default;
   transition: all 2000ms ease;

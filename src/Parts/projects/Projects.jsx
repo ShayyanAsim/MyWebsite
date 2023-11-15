@@ -41,7 +41,7 @@ const Projects = () => {
           <h3>Obituary Generator (FullStack Project)</h3>
           <div className='TBUT'> 
           <a href='https://github.com/ShayyanAsim/Obituary-Generator' className='button' target='_blank'>Code</a>
-          <a href='' className='button button-primary' target='_blank'>Live Demo</a>
+          <a href='https://obituarygeneratorproject.netlify.app/' className='button button-primary' target='_blank'>Live Demo</a>
           </div>
 
      

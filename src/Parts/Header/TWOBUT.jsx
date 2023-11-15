@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../Files/Images/Shayyan_Asim_Resume.pdf'
+import CV from '../../Files/Images/LATESTCV.pdf'
 
 const TWOBUT = () => {
   return (

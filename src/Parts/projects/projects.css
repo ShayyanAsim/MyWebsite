@@ -19,7 +19,7 @@
 
 .projectitem:hover{
     border-color: var(--Background-C);
-    background: transparent;
+    background: #dda0dd;
 }
 
 
@@ -55,17 +55,24 @@
 
 }
 
+#projects{
+    height: 250vh;
+
+}
+
 
 @media screen and (max-width:600px){
     .projects__container{
         grid-template-columns: 1fr;
         gap:1.1rem;
+    
     }
-    
-    
 
+    #projects{
+        height: 380vh;
 }
+    
+    
+    
 
-#projects{
-    height: 373vh;
 }
