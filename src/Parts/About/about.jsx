@@ -8,9 +8,9 @@ const About = () => {
       <h2>About Me</h2>
       <div className='container about__container'>
         <div className='aboutme'>
-        <div id="IMGG" className='imageofme'>
+         <div id="IMGG" className='imageofme'>
           <img src={SECME} alt='myimg'></img>
-        </div>
+        </div>*/
         </div>
 
 
