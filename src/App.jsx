@@ -6,6 +6,7 @@ import About from './Parts/about/About'
 import Experience from './Parts/Experience/experience'
 import Projects from './Parts/projects/Projects'
 import Contact from './Parts/contact/Contact'
+import Footer from './Parts/Footer/footer'
 
 
 
@@ -18,6 +19,7 @@ const App = () => {
     <Experience/>
     <Projects/>
     <Contact/>
+    <Footer/>
 
  
    

@@ -100,3 +100,12 @@ input,textarea{
     gap:1rem;
     justify-content: center;
 }
+
+#contact{
+    height: 180vh;
+}
+
+
+.CHANGE{
+    color:   var(--Backgorund-C);
+}

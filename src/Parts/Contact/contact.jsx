@@ -28,7 +28,7 @@ const Contact = () => {
             <MdEmail className='icon'/>
             <h4>Email</h4>
             <h5>shayyanasim65@gmail.com</h5>
-            <a href='mailto:shayyanasim65@gmail.com' target='_blank'> Send an Email</a>
+            <a href='mailto:shayyanasim65@gmail.com' target='_blank'className='CHANGE'>  Send an Email</a>
 
           </article>
 
@@ -38,7 +38,7 @@ const Contact = () => {
             <BsLinkedin className='icon'/>
             <h4>Linkedin</h4>
             <h5>Shayyan Asim </h5>
-            <a href='https://www.linkedin.com/in/shayyan-asim-670a10271/' target='_blank'> Click Here To Connect on Linkedin</a>
+            <a href='https://www.linkedin.com/in/shayyan-asim-670a10271/' target='_blank' className='CHANGE'>  Click Here To Connect on Linkedin</a>
 
           </article>
 
@@ -47,8 +47,8 @@ const Contact = () => {
             <FaPhoneAlt className='icon'/>
             <h4>Call or Text</h4>
             <div className='Tlinks' >
-            <a href="tel:+18254379360" target='_blank'>Click Here to Call</a>
-            <a href="sms:+18254379360" target='_blank'>Click Here to Text</a>
+            <a href="tel:+18254379360" target='_blank' className='CHANGE'>Click Here to Call</a>
+            <a href="sms:+18254379360" target='_blank' className='CHANGE'>Click Here to Text</a>
             </div>
 
 
