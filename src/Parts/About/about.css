@@ -39,16 +39,14 @@
     .about__container{
         display: flex;
         grid-template-columns: 35% 70%;
-        gap: 15%;
+        gap: 25%;
     
     
     }
 
 }
 
-#about{
-    height: 50vh;
-}
+
 
 
 
