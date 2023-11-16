@@ -6,6 +6,14 @@
 }
 
 
+.about__container:hover{
+  color: #dda0dd;
+
+  
+
+
+}
+
 
 
 
@@ -46,6 +54,9 @@
 
 }
 
+#about{
+  height: 65vh;
+}
 
 
 

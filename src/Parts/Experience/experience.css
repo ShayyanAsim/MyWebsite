@@ -96,8 +96,8 @@
   
 .experience__container > div {
   background: #8751A9;
-  padding: 1.5rem 1rem;
-  border-radius: 3rem;
+  padding: auto;
+  border-radius: auto;
   border: 1px solid transparent;
   opacity: 0; /* Start with opacity 0 for the fade-in effect */
   animation: fadeIn 1.5s forwards; /* Animation name, duration, and fill-mode */
